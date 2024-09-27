@@ -23,3 +23,6 @@ To use individual files:
 - Note that custom.css makes specific modifications to the light and dark themes, to make a "light sepia" theme, and a dark theme for which black chemical structures in transparent images (svgs and pngs) are still visible. These may be incompatible with other custom css you have applied.
 
 Using update-config.sh will allow making a backup of your user-modifiable Zettlr config files to a separate directory, which can then be synced to another computer, or changes can be tracked with a git repo. Do not post the whole directory to a public repo, as it contains user-specific info.
+
+## Contributions
+If you'd like to contribute other YAML files (either journal-specific manuscript export files, or other useful formats) feel free to create a PR.
