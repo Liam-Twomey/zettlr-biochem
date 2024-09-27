@@ -1,0 +1,283 @@
+    "autoCorrect": {
+      "active": true,
+      "magicQuotes": {
+        "primary": "“…”",
+        "secondary": "‘…’"
+      },
+      "replacements": [
+        {
+          "key": "-->",
+          "value": "→"
+        },
+        {
+          "key": "–>",
+          "value": "→"
+        },
+        {
+          "key": "<--",
+          "value": "←"
+        },
+        {
+          "key": "<->",
+          "value": "↔"
+        },
+        {
+          "key": "<-->",
+          "value": "↔"
+        },
+        {
+          "key": "==>",
+          "value": "⇒"
+        },
+        {
+          "key": "<==",
+          "value": "⇐"
+        },
+        {
+          "key": "<=>",
+          "value": "⇔"
+        },
+        {
+          "key": "<==>",
+          "value": "⇔"
+        },
+        {
+          "key": "!=",
+          "value": "≠"
+        },
+        {
+          "key": "<>",
+          "value": "≠"
+        },
+        {
+          "key": "+-",
+          "value": "±"
+        },
+        {
+          "key": ":time:",
+          "value": "×"
+        },
+        {
+          "key": ":division:",
+          "value": "÷"
+        },
+        {
+          "key": "<=",
+          "value": "≤"
+        },
+        {
+          "key": ">=",
+          "value": "≥"
+        },
+        {
+          "key": "1/2",
+          "value": "½"
+        },
+        {
+          "key": "1/3",
+          "value": "⅓"
+        },
+        {
+          "key": "2/3",
+          "value": "⅔"
+        },
+        {
+          "key": "1/4",
+          "value": "¼"
+        },
+        {
+          "key": "3/4",
+          "value": "¾"
+        },
+        {
+          "key": "1/8",
+          "value": "⅛"
+        },
+        {
+          "key": "3/8",
+          "value": "⅜"
+        },
+        {
+          "key": "5/8",
+          "value": "⅝"
+        },
+        {
+          "key": "7/8",
+          "value": "⅞"
+        },
+        {
+          "key": "mm2",
+          "value": "mm²"
+        },
+        {
+          "key": "cm2",
+          "value": "cm²"
+        },
+        {
+          "key": "m2",
+          "value": "m²"
+        },
+        {
+          "key": "km2",
+          "value": "km²"
+        },
+        {
+          "key": "mm3",
+          "value": "mm³"
+        },
+        {
+          "key": "cm3",
+          "value": "cm³"
+        },
+        {
+          "key": "ccm",
+          "value": "cm³"
+        },
+        {
+          "key": "m3",
+          "value": "m³"
+        },
+        {
+          "key": "km3",
+          "value": "km³"
+        },
+        {
+          "key": ":sup2:",
+          "value": "²"
+        },
+        {
+          "key": ":sup3:",
+          "value": "³"
+        },
+        {
+          "key": ":deg:",
+          "value": "°"
+        },
+        {
+          "key": ":eur",
+          "value": "€"
+        },
+        {
+          "key": ":gbp",
+          "value": "£"
+        },
+        {
+          "key": ":yen",
+          "value": "¥"
+        },
+        {
+          "key": ":cent",
+          "value": "¢"
+        },
+        {
+          "key": ":inr:",
+          "value": "₹"
+        },
+        {
+          "key": "(c)",
+          "value": "©"
+        },
+        {
+          "key": "(tm)",
+          "value": "™"
+        },
+        {
+          "key": "(r)",
+          "value": "®"
+        },
+        {
+          "key": "...",
+          "value": "…"
+        },
+        {
+          "key": "--",
+          "value": "–"
+        },
+        {
+          "key": "---",
+          "value": "—"
+        },
+        {
+          "key": ":c:",
+          "value": "°C"
+        },
+        {
+          "key": ":times:",
+          "value": "×"
+        },
+        {
+          "key": ":uL:",
+          "value": "μL"
+        },
+        {
+          "key": ":a:",
+          "value": "Å"
+        },
+        {
+          "key": ":delta:",
+          "value": "δ"
+        },
+        {
+          "key": ":Delta:",
+          "value": "Δ"
+        },
+        {
+          "key": ":epsilon:",
+          "value": "ε"
+        },
+        {
+          "key": ":lambda:",
+          "value": "λ"
+        },
+        {
+          "key": ":beta:",
+          "value": "β"
+        },
+        {
+          "key": ":alpha:",
+          "value": "α"
+        },
+        {
+          "key": ":mu:",
+          "value": "μ"
+        },
+        {
+          "key": ":nu:",
+          "value": "ν"
+        },
+        {
+          "key": ":kappa:",
+          "value": "κ"
+        },
+        {
+          "key": ":eta:",
+          "value": "η"
+        },
+        {
+          "key": "Mossbauer",
+          "value": "Mössbauer"
+        },
+        {
+          "key": "::o",
+          "value": "ö"
+        },
+        {
+          "key": ":lipsum:",
+          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas sed enim ut sem viverra aliquet eget sit amet. Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Ullamcorper a lacus vestibulum sed arcu non odio. Enim neque volutpat ac tincidunt vitae semper. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Euismod nisi porta lorem mollis aliquam ut. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Aliquam sem fringilla ut morbi. Nunc pulvinar sapien et ligula ullamcorper malesuada. Sed nisi lacus sed viverra tellus in hac. Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Euismod quis viverra nibh cras pulvinar. A diam sollicitudin tempor id eu nisl. Enim praesent elementum facilisis leo vel. Non odio euismod lacinia at quis risus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Mauris nunc congue nisi vitae suscipit tellus. Lacus laoreet non curabitur gravida arcu ac."
+        },
+        {
+          "key": "uL",
+          "value": "μL"
+        },
+        {
+          "key": ":eq:",
+          "value": "$\\ce{}$"
+        },
+        {
+          "key": ":approx:",
+          "value": "$\\approx$"
+        }
+      ],
+      "matchWholeWords": false
+    }
+  },

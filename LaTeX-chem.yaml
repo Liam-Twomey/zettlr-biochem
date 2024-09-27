@@ -1,0 +1,61 @@
+# ZETTLR DEFAULTS FILE
+# ====================
+# Conversion: Markdown --> LaTeX document
+# More info: https://pandoc.org/MANUAL.html
+reader: markdown
+writer: latex
+self-contained: false
+variables:
+  documentclass: article
+  classoption: twoside
+  # Sets the size of the document's pages.
+  papersize: letter # Possible values: a0-a6, b0-b6, c0-c6,b0j, letter, executive, legal
+  # Further variables are documented here: https://pandoc.org/MANUAL.html#variables-for-latex
+  fontsize: 12pt
+  maergin-left: 0.75in
+  margin-right: 0.75in
+  margin-top: 0.75in
+  margin-bottom: 0.75in
+  header-includes:
+    - \usepackage{tgpagella}
+    - \usepackage{mhchem}
+    - \usepackage{gensymb}
+  # Link colors
+  linkcolor: Purple
+  urlcolor: Blue
+  filecolor: Purple
+  citecolor: Blue
+metadata-files: []
+include-before-body: []
+include-after-body: []
+include-in-header: []
+bibliography: []
+filters:
+- type: citeproc
+top-level-division: default
+wrap: none
+columns: 78
+dpi: 72
+toc: false
+toc-depth: 2
+number-sections: false
+number-offset:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+shift-heading-level-by: 1
+section-divs: true
+identifier-prefix: ''
+title-prefix: ''
+eol: lf
+strip-comments: false
+indented-code-classes: []
+ascii: false
+default-image-extension: .jpg
+highlight-style: pygments
+tab-stop: 4
+preserve-tabs: false
+fail-if-warnings: false

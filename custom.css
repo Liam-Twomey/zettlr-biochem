@@ -1,0 +1,21 @@
+/* A rudimentary custom css for Berlin and Frankfurt.
+ * Makes light mode sepia-toned, and lightens the editor slightly for dark mode, so that transparent images of chemical structures are more easily seen.
+ */ 
+/* light sepia mode */
+body .main-editor-wrapper{
+  background-color: hsla(60, 31%, 93%, 1);}
+body #file-tree{
+  background-color: hsla(60, 31%, 85%, 0.8);}
+body.linux div#toolbar{
+  background-color: hsla(60, 31%, 85%, 0.8);}
+body.linux input{
+    background-color: hsla(60, 31%, 93%, 1);}
+body #file-manager .file-manager-filter{
+    background-color: hsla(60, 31%, 85%, 0.8);}
+body div.tab-container{
+      background-color: hsla(60, 31%, 93%, 1);}
+/* lighten dark background */
+body.dark .main-editor-wrapper{
+  background-color: #50505a;}
+body.dark #file-manager .file-manager-filter{
+    background-color: #000000;}
