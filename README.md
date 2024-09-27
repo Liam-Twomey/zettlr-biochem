@@ -14,7 +14,7 @@ My hope is that this helps other chemists and biochemists to get started with Ze
 - `snippets`
   - `ce.tpl.md` - allows use of `:ce:` to create a LaTeX chemequation block to properly format chemical formulas and equations.
   - `titleblock.tpl.md` - inserts a titleblock which can be tabbed through. 
-- `update-config-bkp.sh` - A bash script to back up zettlr config files (tested on linux). Run script with no commands for usage.
+- `backup-config.sh` - A bash script to back up zettlr config files (tested on linux). Run script with no commands for usage.
 
 ## Usage
 To use individual files:
@@ -28,3 +28,7 @@ Using update-config.sh will allow making a backup of your user-modifiable Zettlr
 
 ## Contributions
 If you'd like to contribute other YAML files (either journal-specific manuscript export files, or other useful formats) feel free to create a PR.
+
+Modifying the paths to work on WSL or Mac should be easy enough, if you do so and would like to contribute your versions to this repo, that'd be great.
+
+PowerShell is a scripting language sent from hell to test me, but if there's interest in a windows-native backup-config.ps1, I'd consider rewriting it. 
