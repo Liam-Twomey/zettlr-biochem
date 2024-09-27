@@ -21,3 +21,5 @@ To use individual files:
 - Please check the contents of your *current* `autocorrect.json` and `custom.css` before overwriting the whole file!! If you have ***any*** prior modifications to either file, you will want to manually merge the files.
 - `autocorrect.json` should be pasted into the `autocorrect{...}` block in your `config.json` file.
 - Note that custom.css makes specific modifications to the light and dark themes, to make a "light sepia" theme, and a dark theme for which black chemical structures in transparent images (svgs and pngs) are still visible. These may be incompatible with other custom css you have applied.
+
+Using update-config.sh will allow making a backup of your user-modifiable Zettlr config files to a separate directory, which can then be synced to another computer, or changes can be tracked with a git repo. Do not post the whole directory to a public repo, as it contains user-specific info.
