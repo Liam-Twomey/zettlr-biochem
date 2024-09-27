@@ -3,6 +3,8 @@ Zettlr is set up for use in a broad range of academic fields, and I've found it 
 
 My hope is that this helps other chemists and biochemists to get started with Zettlr settings. To use, follow the Zettlr [instructions](https://docs.zettlr.com/en/reference/migrating/) for migrating computers. Only replace these files on a fresh install, before you've modified them! Otherwise, you'll have to figure out how to merge files properly.
 
+***An important note:*** Adding lots of KaTeX equations just to show special characters (i.e. `$\beta$ decay`) can really slow Zettlr's linter, so I've found that adding them as Unicode characters is a better idea. However, *this limits which LaTeX --> PDF engines you can use*. The older pdfTeX does not support unicode characters, but XeTeX and LuaTeX do. 
+
 ## Contents
 - `autocorrect.json` - an extended list of autocorrects to allow insertion of UniCode greek letters and symbols.
 - `custom.css` - Lightens the dark background of the Zettlr dark mode to make chemical structures with transparent backgrounds easier to read.
