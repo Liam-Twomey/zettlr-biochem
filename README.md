@@ -15,4 +15,9 @@ My hope is that this helps other chemists and biochemists to get started with Ze
 - `update-config-bkp.sh` - A bash script to back up zettlr config files (tested on linux). Run script with no commands for usage.
 
 ## Usage
-The `.yaml` export files can be dragged and dropped into `/.config/Zettlr/defaults`, but the contents of `autocorrect.json` should be pasted into the `autocorrect{...}` section of config.json.
+To use individual files:
+- `.yaml` export files can always be dragged and dropped into `~/.config/Zettlr/defaults`
+- Contents of the `snippets` directory can be copied into `~/.config/Zettlr/snippets`
+- Please check the contents of your *current* `autocorrect.json` and `custom.css` before overwriting the whole file!! If you have ***any*** prior modifications to either file, you will want to manually merge the files.
+- `autocorrect.json` should be pasted into the `autocorrect{...}` block in your `config.json` file.
+- Note that custom.css makes specific modifications to the light and dark themes, to make a "light sepia" theme, and a dark theme for which black chemical structures in transparent images (svgs and pngs) are still visible. These may be incompatible with other custom css you have applied.
