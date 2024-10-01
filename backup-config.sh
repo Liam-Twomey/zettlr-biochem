@@ -1,9 +1,10 @@
 #!/bin/bash
-configdir="$HOME$/.config/Zettlr"
-bkpdir="$HOME/.zettlr_conf_bkp"
+configdir="$HOME/.config/Zettlr"
+bkpdir="$HOME/gitrepos/zettlr-config-bkp"
+#assign windows username to use via WSL 
+winuser=''
 # any further custom templates must be manually added for now
 declare -a customTemplates=("LaTeX-chem.yaml" "LuaTeX-Chem-PDF.yaml")
-echo $customTemplates
 
 backup(){
 	cp $configdir/stats.json $bkpdir
@@ -16,6 +17,7 @@ backup(){
 
   for i in "${customTemplates[@]}"; do
     cp $configdir/defaults/$i $bkpdir/
+    echo $i
   done
 }
 restore(){
@@ -35,6 +37,7 @@ usage(){
 echo -e "Usage:  -b backs up files from Zettlr to the default backup directory ($HOME/.zettlr_config_backup).
 	-r restores the files from the backup directory to the Zettlr config directory.
 	-d sets a custom backup directory for this run of the script.
+  -w sets the backup directory to /mnt/c/tromb/AppData/Roaming/Zettlr, allowing use in WSL to backup/restore a Windows install.
   Example command: ./backup-config.sh -bd ~/zconfigbkp/"
 }
 
@@ -45,7 +48,7 @@ then
 fi
 
 # dealing with actual flags
-while getopts 'brd:' OPTION; do
+while getopts 'brwd:' OPTION; do
 	case "$OPTION" in
 		d)
 			bkpdir=$OPTARG
@@ -56,6 +59,9 @@ while getopts 'brd:' OPTION; do
 		r)
 			restore
 		;;
+    w)
+      configdir="/mnt/c/$winuser/AppData/Roaming/Zettlr"
+    ;;
 		?)
 			usage
 		;;
