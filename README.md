@@ -26,9 +26,11 @@ To use individual files:
 
 Using update-config.sh will allow making a backup of your user-modifiable Zettlr config files to a separate directory, which can then be synced to another computer, or changes can be tracked with a git repo. Do not post the whole directory to a public repo, as it contains user-specific info.
 
+## Use on Windows
+
+If using zettlr on Windows, if WSL is installed you can now specify the `-w` flag (it must be *before* the other flags in the sequence for...bash reasons) if on windows to back up from or restore to the Windows zettlr config directory (`C:\Users\<username>\AppData\Roaming\Zettlr\`). 
+
 ## Contributions
 If you'd like to contribute other YAML files (either journal-specific manuscript export files, or other useful formats) feel free to create a PR.
 
 Modifying the paths to work on WSL or Mac should be easy enough, if you do so and would like to contribute your versions to this repo, that'd be great.
-
-PowerShell is a scripting language sent from hell to test me, but if there's interest in a windows-native backup-config.ps1, I'd consider rewriting it. 
